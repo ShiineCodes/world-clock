@@ -1,11 +1,11 @@
 body {
   background-color: #c6b7ee;
-  font-family: sans-serif;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 h1 {
   text-align: center;
-  font-family: sans-serif;
+  font-family: monospace;
   font-size: 36px;
 }
 
@@ -13,7 +13,9 @@ h2 {
   margin: 0 0 5px;
   font-size: 28px;
 }
-
+a {
+  color: #fafafc;
+}
 select {
   display: block;
   width: 100%;
@@ -25,7 +27,7 @@ select {
 .container {
   max-width: 600px;
   margin: 60px auto;
-  background: white;
+  background: rgba(253, 255, 245, 0.829);
   padding: 30px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
@@ -48,7 +50,7 @@ select {
 }
 
 .time {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: bold;
 }
 
@@ -57,7 +59,15 @@ select {
   vertical-align: middle;
   line-height: 48px;
 }
-
+.clock {
+  display: block;
+  margin: 20px auto;
+  max-width: 200px;
+}
+  img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
 footer {
   text-align: center;
   font-size: 18px;
